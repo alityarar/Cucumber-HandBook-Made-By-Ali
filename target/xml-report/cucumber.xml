@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="36.123">
+    <testcase classname="US1001 Amazon Search" name="TC01 kullanici amazonda kelime aratir" time="11.263">
+        <system-out>
+            <![CDATA[Given kullanici amazon ana sayfasinda.......................................passed
+Then kullanici Nutella icin arama yapar.....................................passed
+And sonuclarin Nutella icerdigini test eder.................................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1001 Amazon Search" name="TC03 kullanici amazonda Iphone aratir" time="5.832">
+        <system-out>
+            <![CDATA[Given kullanici amazon ana sayfasinda.......................................passed
+Then kullanici Iphone icin arama yapar......................................passed
+And sonuclarin Iphone icerdigini test eder..................................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1010 herokuapp delete testi" name="TC15 herokuapp delete butonu calismali" time="18.634">
+        <system-out>
+            <![CDATA[Given kullanici "herokuappUrl" sayfasinda...................................passed
+And add element butonuna basar..............................................passed
+Then delete butonu gorunur oluncaya kadar bekler............................passed
+And delete butonunun gorunur oldugunu test eder.............................passed
+Then delete butonuna basar..................................................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
